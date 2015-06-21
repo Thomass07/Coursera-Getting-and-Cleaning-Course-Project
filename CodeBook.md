@@ -10,6 +10,8 @@ wearing a smartphone (Samsung Galaxy S II) on the waist.
 A full description is available here how the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+Data was downloaded from the provided website in a compressed file.
+
 ##Introduction
 * `run_analysis.R` performs the steps written in the course project
 * Similar data were binded with `cbind`,`rbind` or with the `merge` function
@@ -34,7 +36,7 @@ Dataset has descriptive names
 * `Training_subject`,`Training_X`,`Training_Y`,`Test_subject`,`Test_X`,`Test_Y`,`Activity_labels` contain the data from the downloaded files
 * `Training`,`Test`,`Dataset` are the binded datasets for further work
 * `Activity_Subject` contains the Activity and Subject rows
-* `meanstd` contains the functions what we need to keep for further analysis(mean and standard deviation for each measurement)
+* `meanstd` contains the functions what we need to keep for further analysis(mean and standard deviation for each measurement) - I kept the mean and std functions where ...mean() or ...std() were found 
 * `Dataset2` binded dataset with the Activity and Subject rows
 
 
