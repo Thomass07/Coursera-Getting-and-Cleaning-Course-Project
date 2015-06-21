@@ -36,6 +36,7 @@ Dataset has descriptive names
 * `Training_subject`,`Training_X`,`Training_Y`,`Test_subject`,`Test_X`,`Test_Y`,`Activity_labels` contain the data from the downloaded files
 * `Training`,`Test`,`Dataset` are the binded datasets for further work
 * `Activity_Subject` contains the Activity and Subject rows
+* `features` were selected from the raw data
 * `meanstd` contains the functions what we need to keep for further analysis(mean and standard deviation for each measurement) - I kept the mean and std functions where ...mean() or ...std() were found 
 * `Dataset2` binded dataset with the Activity and Subject rows
 
