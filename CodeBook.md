@@ -11,15 +11,23 @@ A full description is available here how the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ##Introduction
-* `run_analysis.R` perform the steps written in the course project
+* `run_analysis.R` performs the steps written in the course project
 * Similar data were binded with `cbind`,`rbind` or with the `merge` function
+* `colnames`,`names` Name settings
 * Those columns were kept where the mean or std functions were performed,name corrections were performed
-* `grep` , `gsub` pattern matching
+* `grep` , `gsub` pattern matching and string replacement
 * Data frame convertions were performed because of the merge function's requirement -> subset delete
+* `Merge` There are 6 different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+and these activities were identified by a unique key, so it had to be matched together
 * `melt`and `dcast` creates a second Independent tidy data set with the average of each variable for each activity and each subject
-* dimensio check, dim 180*68
-* Independent tidy data set is in the Final_result.txt file, `write.table`
+* dimension check, `dim` 
+* Independent tidy data set was uploaded in the repository directory `Final_result.txt file` with the help of the `write.table` function
 
+My dataset is an independent tidy data set
+* Each variable is in one column
+* Each different observation of that variable in a different row
+
+Dataset has descriptive names
 
 
 ##Variables
