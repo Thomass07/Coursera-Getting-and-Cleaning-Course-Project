@@ -23,7 +23,7 @@ Data was downloaded from the provided website in a compressed file.
 and these activities were identified by a unique key, so it had to be matched together
 * `melt`and `dcast` creates a second Independent tidy data set with the average of each variable for each activity and each subject
 * dimension check, `dim` 
-* Independent tidy data set was uploaded in the repository directory `Final_result.txt file` with the help of the `write.table` function
+* Independent tidy data set was uploaded in the repository directory `Final_result.txt file` with the help of the `write.table` function, 180 rows - 6 activities by 30 subject
 
 My dataset is an independent tidy data set
 * Each variable is in one column
